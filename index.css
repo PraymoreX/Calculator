@@ -1,0 +1,56 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons{
+    display: grid;
+    grid-template-rows:   repeat(4, 100px);
+    grid-template-columns: repeat(4, 100px);
+    align-content: center;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+    
+}
+
+
+.last-row{
+    display: grid;
+    grid-template-columns: 200px 100px 100px;
+
+}
+
+#display{
+    height: 100px;
+    width: 400px;
+} 
+
+#operand{
+    background-color: grey;
+
+
+}
+#decimal{
+    background-color: grey;
+
+
+}
+
+
+#operator{
+    background-color: orange;
+    
+
+}
+button{
+    border-radius: 7px;
+}
+
+#container{
+    border: 2px solid black;
+    border-radius: 8px;
+}
