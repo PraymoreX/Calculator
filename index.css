@@ -6,6 +6,13 @@ body{
     align-items: center;
 }
 
+div{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 3.6em;
+}
+
 
 
 .grid-item1{
@@ -60,6 +67,17 @@ body{
     
 
 }
+
+#equals{
+    background-color: orange;
+    
+
+}
+
+#clear{
+    background-color: orange;
+}
+
 button{
     border-radius: 7px;
 }
